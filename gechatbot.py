@@ -37,7 +37,7 @@ def helpmessage():
 【Speed】查看機器速度
 【Set】查看設定
 【Reread On/Off】收回查詢 開啟/關閉
-【Setread】【SR】設定已讀點
+【Setread】【SR】已讀設置
 【Lookread】【LR】查詢已讀
 【Tagall】全體標註
 ⇛Create it By.Ge™⇚
@@ -70,7 +70,7 @@ def lineBot(op):
                     cl.sendMessage(to, str(helpMessage))
                     cl.sendContact(to, "u66d4c27e8f45f025cf5774883b67ddc1")
                 elif msg.text in ["SR","Setread"]:
-                    cl.sendMessage(msg.to, "設置已讀點")
+                    cl.sendMessage(msg.to, "已讀設置")
                     try:
                         del wait2['readPoint'][msg.to]
                         del wait2['readMember'][msg.to]
