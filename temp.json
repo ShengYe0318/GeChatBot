@@ -1,43 +1,35 @@
 {
     "autoAdd": false,
-    "autoJoin": true,
+    "autoJoin": false,
     "autoJoinTicket": false,
     "autoLeave": false,
-    "autoRead": true,
+    "autoRead": false,
     "blacklist": {
-        "u29f1984703c898872a256532531b82bf": true,
-        "u2a4526951573a993d5295c7e066687ed": true,
-        "u5242015f0472274c5ba378e9c8d4eaa1": true,
-        "u54b2b72da19554aef5be810ada3e2092": true,
-        "u9b035730aeb9d17410d96e95ad2503b8": true,
-        "ua4daf7f920d84266ddcfcac7faeab2ee": true,
-        "ub211c865898b727b8c7e798da4622500": true,
-        "uda21e42d887375e275a3325d2f3cdd71": true
+    
     },
     "canceljoin": false,
     "cancelprotect": false,
     "changeGroupPicture": {},
     "changePicture": {},
     "checkSticker": false,
-    "contact": false,
+    "contact": true,
     "dblack": false,
     "dblacklist": false,
     "detectMention": false,
     "inviteprotect": false,
     "keyCommand": "",
     "kickjoin": false,
-    "kickmeber": false,
+    "reread": false,
     "lang": "JP",
     "mimic": {
         "copy": false,
         "status": true,
         "target": {
-            "ud4d2c8cbf1429842fc2f65e7f044647c": true
+        
         }
     },
-    "protect": true,
+    "protect": false,
     "qrprotect": false,
-    "reread": true,
     "userAgent": [
         "Mozilla/5.0 (X11; U; Linux i586; de; rv:5.0) Gecko/20100101 Firefox/5.0",
         "Mozilla/5.0 (X11; U; Linux amd64; rv:5.0) Gecko/20100101 Firefox/5.0 (Debian)",
