@@ -519,7 +519,6 @@ def lineBot(op):
                     to = receiver
             else:
                 to = receiver
-                if settings["autoJoin"] == True:
                     cl.sendChatChecked(to, msg_id)
         if op.type == 26:
             try:
